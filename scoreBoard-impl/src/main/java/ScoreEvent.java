@@ -5,6 +5,7 @@ import com.lightbend.lagom.javadsl.persistence.AggregateEvent;
 import com.lightbend.lagom.javadsl.persistence.AggregateEventTag;
 import com.lightbend.lagom.javadsl.persistence.AggregateEventTagger;
 import com.lightbend.lagom.serialization.Jsonable;
+
 import javax.annotation.concurrent.Immutable;
 
 public interface ScoreEvent extends Jsonable, AggregateEvent<ScoreEvent> {
